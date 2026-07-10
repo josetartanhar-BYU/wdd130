@@ -1,3 +1,9 @@
+:root {
+
+    --cor-tamanho-da-borda: border: 1px solid #000000;
+
+}
+
 *{
     margin: 0;
 }
@@ -19,7 +25,7 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--cor-tamanho-da-borda);
     padding: 2px;
     box-shadow: 0 0 30px;
 }
@@ -35,7 +41,7 @@ aside {
     color: white;
     width: 300px;
     margin: 10px;
-    border: 1px solid #000000;
+    border: var(--cor-tamanho-da-borda);
 }
 
 aside img{
