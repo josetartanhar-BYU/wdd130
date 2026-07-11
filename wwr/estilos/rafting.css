@@ -81,7 +81,7 @@ article{
 
 .hero article p{
     line-height:1.5;
-    position: absolute;
+    
 }
 
 
@@ -96,4 +96,9 @@ article{
 footer{
     background-color: var(--cor-primaria);
     color: #fff
+}
+
+.hero article {
+    
+    position: absolute;
 }
