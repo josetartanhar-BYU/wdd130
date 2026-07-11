@@ -65,8 +65,8 @@ nav, p, section, article{
 article{
     position: absolute;
     background-color: #faf7338c;
-    bottom: 10px;
-    left: 20px;
+    bottom: 200px;
+    left: 5px;
     right: 20px;
     padding: 20px;
    
@@ -100,5 +100,5 @@ footer{
 
 .hero article {
     
-    position: absolute;
+    position: relative;
 }
