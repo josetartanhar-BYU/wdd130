@@ -1,45 +1,28 @@
-:root {
-
-    --cor-tamanho-da-borda: border: 1px solid #000000;
-
-}
-
-/* resetar CSS do meu projeto*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 nav {
     background-color: darkblue;
-    
+    padding: 10px;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 10px;
+    padding: 20px;
+}
+
+main {
+    max-width: 840px;
 }
 
 h1 {
-    
     color: darkblue;
-    
 }
 
 main img {
-    margin-left: 20px;
-    margin-bottom: 20px;
     width: 150px;
     height: auto;
-    border: var(--cor-tamanho-da-borda);
+    border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px;
-    float:right;
-   
-    
+    box-shadow: 0 0 30px gray;
 }
 
 p {
@@ -47,53 +30,21 @@ p {
 }
 
 aside {
-    text-align: center;
-    width: 300px;
-    border: var(--cor-tamanho-da-borda);
-    color: #333;
-    position: relative
-    
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: rgb(217, 237, 255);
+    color: black;
 }
 
-aside img{
-    border: 5px solid rgb(255, 255, 255);
-    box-shadow: 0 ;
-    width: 200px;
+aside img {
     height: auto;
+    width: 200px;
 }
 
-aside h2 {
-  position: absolute;
-  top: 50px;
-  left: 100px;
-}
-
-
-footer{
-    margin-top: 15px;
-    border-top: 2px solid #000000;
+footer {
     text-align: center;
+    margin-top: 10px;
+    border-top: 10px;
 }
-
-main{
-    width: 600px;
-}
-
-ul {
-    background-color: white;
-}
-
-/* Seletores de classe*/
-
-.caixa {
-
-  margin: 1em;
-  border: 1px solid rgb(0, 0, 0, 0.2);
-  padding: 1em;
-  background-color: #eee;
-}
-
-.identacao{
-    padding-left: 2rem;
-}
-
