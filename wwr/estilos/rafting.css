@@ -145,29 +145,26 @@ footer {
   height: auto;
 }
 
-/* Título centralizado com um pouco de margem inferior */
+
 .secao-historia h2 {
     margin-bottom: 20px;
     
 }
 
-/* Container flexível com Grid de 3 colunas */
+
 .conteudo-historia {
     
     display: grid;
-    /* Cria 3 colunas de tamanhos exatamente iguais (1fr cada) */
     grid-template-columns: 1fr 1fr 1fr; 
-    /* Espaço de separação entre os parágrafos e a imagem */
     gap: 20px; 
-    /* Alinha verticalmente os textos e a imagem pelo centro */
     align-items: center; 
 }
 
-/* Faz a imagem preencher a largura da coluna central sem distorcer */
+
 .conteudo-historia img {
     width: 100%;
     height: auto;
-    border-radius: 4px; /* opcional: dá um leve acabamento nas pontas */
+    border-radius: 4px; 
 }
 
 .imagens_aventura {
