@@ -12,12 +12,7 @@
     --fonte-body: Arial, Helvetica, sans-serif;
 }
 
-header{
-    padding: 15px;
-    background-color: #fff;
-    color: var(--cor-destaque2)
-    
-}
+
 
 body{
     font-family: var(--fonte-body);
@@ -76,7 +71,7 @@ article{
 }
 
 .hero article img{
-    float: right;
+    
     width: 125px;
     margin-left: 20px;
     border: 2px solid white;
@@ -96,34 +91,23 @@ article{
     height: auto;
 }
 
-footer {
-    background-color: var(--cor-primaria);
-    color: #fff;
-    
-}
-
-
-.hero article {
-    
-    position: absolute;
-}
 
 header {
 
-display: flex;
-padding: 20px;
-align-items: center;
-
+display: grid;
+grid-template-columns: 200px 1fr ; 
+align-items:center;
+border: 1px solid black;
+padding: 15px;
+background-color: #fff;
+color: var(--cor-destaque2)
 }
-
 #menu {
 
 display: flex;
-margin-left: 40px;
-
+justify-content: flex-end;
 
 }
-
 #menu a {
     display: flex;
     justify-content: center;
@@ -133,18 +117,8 @@ margin-left: 40px;
     text-decoration: none;
     color: black;
     border: 1px solid black;
-    text-align: center;
     
 }
-
-/*nav {
-
-display: flex;
-list-style: none;
-
-}
-*/
-
 header img {
     width: 200px;
     height: auto;
@@ -156,6 +130,8 @@ footer {
   align-items: center;
   padding: 5px;
   text-align: center;
+  background-color: var(--cor-primaria);
+  color: #fff;
 }
 
 
@@ -172,10 +148,12 @@ footer {
 /* Título centralizado com um pouco de margem inferior */
 .secao-historia h2 {
     margin-bottom: 20px;
+    
 }
 
 /* Container flexível com Grid de 3 colunas */
 .conteudo-historia {
+    
     display: grid;
     /* Cria 3 colunas de tamanhos exatamente iguais (1fr cada) */
     grid-template-columns: 1fr 1fr 1fr; 
@@ -207,5 +185,9 @@ footer {
 }
 
 .imagens_aventura h2 {
+    text-align: center;
+}
+
+figcaption {
     text-align: center;
 }
