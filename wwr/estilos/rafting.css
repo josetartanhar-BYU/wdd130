@@ -82,6 +82,9 @@ article{
     
 }
 
+.hero article {
+    position: absolute;
+}
 
 .redes-sociais a{
     text-decoration: none;
