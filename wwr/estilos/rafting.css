@@ -135,12 +135,12 @@ footer {
 }
 
 
-.redes-sociais {
+.socialmedia {
   display: flex;
   gap: 15px;
 }
 
-.redes-sociais img {
+.socialmedia img {
   width: 35px; 
   height: auto;
 }
@@ -183,6 +183,7 @@ footer {
 
 .imagens_aventura h2 {
     text-align: center;
+    grid-column: 1 / 6;
 }
 
 figcaption {
