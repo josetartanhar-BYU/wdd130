@@ -97,10 +97,7 @@ article{
 .redes-sociais a{
     text-decoration: none;
 }
-.redes-sociais img{
-    width: auto;
-    height: auto;
-}
+
 
 
 header {
@@ -155,6 +152,7 @@ color: #fff;
 .redes-sociais img {
   width: 35px; 
   height: auto;
+  
 }
 
 
@@ -214,11 +212,7 @@ figcaption {
 
 
 
-.conteudo-historia img {
-    width: 100%;
-    height: auto;
-    border-radius: 4px; 
-}
+
 
 /* FORMULÁRIO CONTATO */
 
@@ -248,15 +242,9 @@ fieldset {
 }
 
 
-.item-formulario-coluna2 input {
-
-    width: 240px;
-    height: 30px;
-
-}
-
 
 /* Propósito */
+
 .proposito {
     display: grid;
     grid-template-columns: 90px 1fr;
@@ -323,10 +311,7 @@ textarea {
 }
 
 
-input[type="checkbox"] {
-    width: 16px;
-    height: 16px;
-}
+
 
 
 /* Botão */
