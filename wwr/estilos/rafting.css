@@ -30,9 +30,17 @@ h1, h2{
     text-align: center;
     
 }
-nav, p, section, article{
+/*nav, p, section, article{
     margin: 16px;
     padding: 8px;
+}*/
+
+section,
+article {
+
+margin:16px;
+padding:8px;
+
 }
 
 
@@ -127,14 +135,15 @@ header img {
     height: auto;
 }
 
+
 footer {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 5px;
-  text-align: center;
-  background-color: var(--cor-primaria);
-  color: #fff;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px;
+background-color: var(--cor-primaria);
+color: #fff;
 }
 
 
@@ -191,4 +200,187 @@ footer {
 
 figcaption {
     text-align: center;
+}
+
+/* contato. html*/
+
+ 
+.conteudo-formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+
+
+
+.conteudo-historia img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px; 
+}
+
+/* FORMULÁRIO CONTATO */
+
+.formulario form {
+    width: 300px;
+}
+
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 240px;
+    
+}
+
+
+/* Nome e email */
+.item-formulario-coluna2 {
+
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.item-formulario-coluna2 input {
+
+    width: 240px;
+    height: 30px;
+
+}
+
+
+/* Propósito */
+.proposito {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 5px;
+    align-items: start;
+}
+
+.titulo-proposito {
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+
+.opcoes-radio label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+.opcoes-radio input {
+    margin-right: 8px;
+}
+
+
+
+
+/* Mensagem */
+
+.item-formulario {
+    display: block;
+    margin-top: 15px;
+}
+
+
+.item-formulario label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.item-formulario-coluna2 input {
+
+    width: 300px;
+    height:30px;
+
+}
+
+textarea {
+
+    width:385px;
+    height:90px;
+    padding:8px;
+
+}
+
+
+/* Newsletter */
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+
+/* Botão */
+
+button {
+
+width:340px;
+height:35px;
+margin-top:10px;
+
+}
+    
+
+
+.map iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.funcionarios {
+
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+text-align:center;
+
+}
+
+
+.funcionarios h2 {
+
+grid-column:1 / 4;
+
+}
+
+
+.funcionarios img {
+
+width:150px;
+height:150px;
+border-radius:50%;
+
+}
+
+
+.funcionarios figcaption {
+
+margin-top:10px;
+
 }

@@ -21,8 +21,8 @@ header {
 
 form {
 
-    display:grid;
-    gap: 5px;
+    display: flex;
+    width: 400;
 
 }
 
