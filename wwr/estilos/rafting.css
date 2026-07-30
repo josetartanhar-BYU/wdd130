@@ -380,3 +380,13 @@ margin-top:10px;
     width: 350px;
     
 }
+
+.equipamentos {
+
+display:grid;
+grid-template-columns: 1fr 1fr ;
+gap:20px;
+text-align:center;
+
+
+}
