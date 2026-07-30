@@ -207,6 +207,8 @@ figcaption {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    align-items: center;
+    
 }
 
 
@@ -318,9 +320,10 @@ textarea {
 
 button {
 
-width:340px;
-height:35px;
-margin-top:10px;
+  display: block;
+  margin: 15px auto 0 auto; /* Centraliza horizontalmente */
+  width: 420px; /* Largura fixa para não esticar demais */
+  padding: 10px;
 
 }
     
@@ -368,4 +371,12 @@ border-radius:50%;
 
 margin-top:10px;
 
+}
+
+/*Página Index*/
+
+.imagem_inicio > a >img {
+
+    width: 350px;
+    
 }
