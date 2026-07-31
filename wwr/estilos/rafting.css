@@ -228,6 +228,30 @@ fieldset {
     
 }
 
+.informacoes-contato {
+    background-color: #f4f4f4;
+    border-left: 6px solid var(--cor-primaria);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.informacoes-contato h2 {
+    text-align: left;
+    color: var(--cor-primaria);
+    margin-bottom: 15px;
+}
+
+.informacoes-contato p {
+    line-height: 1.8;
+    font-size: 18px;
+    color: var(--cor-destaque1);
+}
+
+.informacoes-contato strong {
+    color: var(--cor-primaria);
+}
+
 
 /* Nome e email */
 .item-formulario-coluna2 {
@@ -392,19 +416,7 @@ text-align:center;
 /*Página Passeios*/
 
 
-.conteudo-historia {
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
-    gap: 20px; 
-    align-items: center; 
-}
 
-.conteudo-historia img {
-    width: 100%;
-    height: auto;
-    border-radius: 4px; 
-}
 .conteudo-passeios {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -451,3 +463,4 @@ tr:nth-child(even){
 tr:hover{
     background:#ffe98a;
 }
+
