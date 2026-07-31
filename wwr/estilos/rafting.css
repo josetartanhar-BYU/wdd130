@@ -464,3 +464,25 @@ tr:hover{
     background:#ffe98a;
 }
 
+.botao {
+    display: inline-block;
+    background-color: var(--cor-primaria);
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+.botao:hover {
+    background-color: var(--cor-destaque1);
+}
+
+.botao-passeio {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
