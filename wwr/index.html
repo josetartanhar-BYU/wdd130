@@ -1,258 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="Conheça a Tartanhar Rafting e descubra aventuras inesquecíveis, passeios seguros e experiências para toda a família.">
-
-    <meta name="author" content="José Tartanhar">
-
-    <link rel="stylesheet" href="estilos/rafting.css">
-
-    <title>Página Inicial - Tartanhar Rafting</title>
-</head>
-
-
-<body>
-
-<header>
-
-    <img src="imagens/logo.png" alt="Logo da Tartanhar Rafting">
-
-    <nav id="menu">
-
-        <a href="index.html">Página Inicial</a>
-        <a href="sobre.html">Sobre Nós</a>
-        <a href="passeios.html">Passeios</a>
-        <a href="contato.html">Fale Conosco</a>
-
-    </nav>
-
-</header>
-
-
-
-<main>
-
-
-    <div class="hero">
-
-        <img src="imagens/rafting_hero.jpg" alt="Pessoas em um bote">
-
-        <h1>Tartanhar Rafting</h1>
-
-
-        <article>
-
-            <h2>Sobre a Tartanhar Rafting</h2>
-
-            <img src="imagens/rafting-equipe.jpg" alt="Equipe de rafting">
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Conheça a Tartanhar Rafting e descubra aventuras inesquecíveis, passeios seguros e experiências para toda a família.">
+        <meta name="author" content="José Tartanhar">
+        <link rel="stylesheet" href="estilos/rafting.css">
+        <title>Página Inicial - Tartanhar Rafting</title>
+    </head>
+    <body>
+        <header>
+            <img src="imagens/logo.png" alt="Logo da Tartanhar Rafting">
+                <nav id="menu">
+                    <a href="index.html">Página Inicial</a>
+                    <a href="sobre.html">Sobre Nós</a>
+                    <a href="passeios.html">Passeios</a>
+                    <a href="contato.html">Fale Conosco</a>
+                </nav>
+        </header>
+        <main>
+            <div class="hero">
+                <img src="imagens/rafting_hero.jpg" alt="Pessoas em um bote">
+                <h1>Tartanhar Rafting</h1>
+                <article>
+                    <h2>Sobre a Tartanhar Rafting</h2>
+                    <img src="imagens/rafting-equipe.jpg" alt="Equipe de rafting">
+                    <p>
+                        Na Tartanhar Rafting, transformamos cada descida pelo rio em uma experiência inesquecível. 
+                        Com guias experientes, equipamentos certificados e roteiros para todos os níveis de aventura, 
+                        proporcionamos momentos de diversão, segurança e contato com a natureza para famílias, grupos de amigos e empresas.
+                    </p>
+                </article>
+            </div>
+            <section class="secao-historia">
+                <div class="conteudo-formulario">
+                    <div class="imagem_inicio">
+                        <h2> Conheça nossos roteiros e escolha a aventura perfeita para você.</h2>
+                        <a href="passeios.html"><img src="imagens/rafting-equipe.jpg" alt="Equipe de rafting no rio"></a>
+                    </div>
+                    <div class="formulario">
+                        <form action="#" method="post">
+                            <fieldset>
+                                <div class="item-formulario-coluna2">
+                                    <label for="nome">
+                                        Nome:
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="nome"
+                                        name="nome"
+                                        required>
+                                </div>
+                                <div class="item-formulario-coluna2">
+                                    <label for="email-do-usuario">
+                                        E-mail:
+                                    </label>
+                                    <input
+                                        type="email"
+                                        id="email-do-usuario"
+                                        name="email-do-usuario"
+                                        required>
+                                </div>
+                            </fieldset>
+                            <button type="submit">
+                                Se inscreva na nossa newsletter
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <h2> Equipamentos de Segurança </h2>
+            <section class="equipamentos">
+                <figure>
+                    <img
+                        src="imagens/remo.jpg"
+                        alt="remo de rafting">
+                    <figcaption>
+                        Remo para Rafting
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img
+                        src="imagens/colete.jpg"
+                        alt="colete de rafting">
+                    <figcaption>
+                        Colete para Rafting
+                    </figcaption>
+                </figure>
+            </section>
+        </main>
+        <footer>
             <p>
-                Na Tartanhar Rafting, transformamos cada descida pelo rio em uma experiência inesquecível. 
-                Com guias experientes, equipamentos certificados e roteiros para todos os níveis de aventura, 
-                proporcionamos momentos de diversão, segurança e contato com a natureza para famílias, grupos de amigos e empresas.
+                ©2026 ❖ Tartanhar Rafting ❖ José Tartanhar
             </p>
-
-        </article>
-
-    </div>
-
-
-
-    <section class="secao-historia">
-
-
-        
-
-
-
-        <div class="conteudo-formulario">
-
-
-            <div class="imagem_inicio">
-
-                <h2> Conheça nossos roteiros e escolha a aventura perfeita para você.</h2>
-                
-                
-                <a href="passeios.html"><img src="imagens/rafting-equipe.jpg" alt="Equipe de rafting no rio"></a>
-             
-                  
-
-            </div>
-
-
-
-
-
-            <div class="formulario">
-
-
-                <form action="#" method="post">
-
-
-
-                    <fieldset>
-
-
-                        <div class="item-formulario-coluna2">
-
-                            <label for="nome">
-                                Nome:
-                            </label>
-
-                            <input
-                                type="text"
-                                id="nome"
-                                name="nome"
-                                required>
-
-                        </div>
-
-
-
-                        <div class="item-formulario-coluna2">
-
-                            <label for="email-do-usuario">
-                                E-mail:
-                            </label>
-
-                            <input
-                                type="email"
-                                id="email-do-usuario"
-                                name="email-do-usuario"
-                                required>
-
-                        </div>
-
-
-                    </fieldset>
-
-
-
-
-
-
-
-
-                    <button type="submit">
-                        Se inscreva na nossa newsletter
-                    </button>
-
-
-
-                </form>
-
-
-            </div>
-
-
-        </div>
-
-
-    </section>
-
-
-
- 
-           <h2> Equipamentos de Segurança </h2>
-
-    <section class="equipamentos">
-
-
-       
-
-
-
-        <figure>
-
-            <img
-                src="imagens/remo.jpg"
-                alt="remo de rafting">
-
-
-            <figcaption>
-                Remo para Rafting
-            </figcaption>
-
-        </figure>
-
-
-
-
-        <figure>
-
-            <img
-                src="imagens/colete.jpg"
-                alt="colete de rafting">
-
-
-            <figcaption>
-                Colete para Rafting
-            </figcaption>
-
-        </figure>
-
-
-
-
-        
-
-
-    </section>
-
-
-
-</main>
-
-
-
-
-<footer>
-
-
-    <p>
-        ©2026 ❖ Tartanhar Rafting ❖ José Tartanhar
-    </p>
-
-
-
-    <nav class="redes-sociais">
-
-
-        <a href="https://facebook.com">
-
-            <img src="imagens/facebook.svg" alt="Ícone do Facebook">
-
-        </a>
-
-
-
-        <a href="https://linkedin.com">
-
-            <img src="imagens/linkedin.svg" alt="Ícone do Linkedin">
-
-        </a>
-
-
-
-        <a href="https://instagram.com">
-
-            <img src="imagens/instagram.svg" alt="Ícone do Instagram">
-
-        </a>
-
-
-
-    </nav>
-
-
-</footer>
-
-
-
-</body>
-
+            <nav class="redes-sociais">
+                <a href="https://facebook.com">
+                    <img src="imagens/facebook.svg" alt="Ícone do Facebook">
+                </a>
+                <a href="https://linkedin.com">
+                    <img src="imagens/linkedin.svg" alt="Ícone do Linkedin">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="imagens/instagram.svg" alt="Ícone do Instagram">
+                </a>
+            </nav>
+        </footer>
+    </body>
 </html>
